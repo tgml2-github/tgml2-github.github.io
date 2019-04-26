@@ -6,10 +6,10 @@
 ### Content
 
 - Git and Github
-- Git Command and Github Desktop
+- Git Command and [Github Desktop](https://desktop.github.com/)
 - Repository and Organization
 - Use Github wiki to document your project
 - Host A Simple Website on GitHub
 - Exercise and Q & A
 
-Please read more at [wiki](https://github.com/tgml2-github/tgml2-github.github.io/wiki) ...
+Please check more at [wiki](https://github.com/tgml2-github/tgml2-github.github.io/wiki)
