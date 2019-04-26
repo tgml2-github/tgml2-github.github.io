@@ -6,7 +6,7 @@
 ### Content
 
 - Git and Github
-- Git Command and [Github Desktop](Github Desktop)
+- Git Command and [Github Desktop](https://desktop.github.com/)
 - Repository and Organization
 - Use Github wiki to document your project
 - Host A Simple Website on GitHub
