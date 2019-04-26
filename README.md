@@ -11,4 +11,5 @@
 - Use Github wiki to document your project
 - Host A Simple Website on GitHub
 - Exercise and Q & A
-Please check [wiki](https://github.com/tgml2-github/tgml2-github.github.io/wiki)
+
+Please check more at [wiki](https://github.com/tgml2-github/tgml2-github.github.io/wiki)
