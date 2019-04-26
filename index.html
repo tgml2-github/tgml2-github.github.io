@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Landing Page - Start Bootstrap Theme</title>
+  <title>TGML2-Github and Wiki Training</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,19 @@
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/svg.css">
+  <style type="text/css">
+    * {
+      -webkit-transform-origin-x: 0px;
+      -webkit-transform-origin-y: 0px;
+      -webkit-transform-origin-z: initial;
+    }
+    .icon {
+      width: 180px;
+      height: 180px;
+      fill: hsl(0, 100%, 80%);
+    }
+  </style>
 </head>
 
 <body>
@@ -28,7 +40,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">Github And Wiki Training</a>
       <a class="btn btn-primary" href="#">Sign In</a>
     </div>
   </nav>
@@ -39,19 +51,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
-            </div>
-          </form>
+          <h1 class="mb-5">Example!</h1>
         </div>
       </div>
     </div>
@@ -97,24 +97,93 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img">
+          <div style="padding: 20px; margin-top: 100px; margin-left: 100px;" >
+            <svg height="200" width="300">
+              <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+            </svg>
+          </div>
+        </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+          <h2>Drawing a line with SVG</h2>
+          <p class="lead mb-0">
+            <xmp style="margin-left: -105px;">
+              <svg height="210" width="500">
+                <line x1="0" y1="0" x2="200" y2="200"
+                style="stroke:rgb(255,0,0);stroke-width:2" />
+              </svg>
+            </xmp>
+          </p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-4 text-white showcase-img">
+          <div style="border: 1px solid black; width: 400px; height: 300px; padding: 50px; margin-left: 50px; margin-top: 100px;">
+            <svg version="1.1"
+                 baseProfile="full"
+                 width="300" height="200"
+                 xmlns="http://www.w3.org/2000/svg">
+              <rect width="100%" height="100%" fill="red" />
+              <circle cx="150" cy="100" r="80" fill="green" />
+              <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+            </svg>
+          </div>
+        </div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2>Rectangle and Circle with SVG</h2>
+          <p class="lead mb-0">
+            <xmp style="margin-left: -110px;">
+              <svg version="1.1"
+                   baseProfile="full"
+                   width="300" height="200"
+                   xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="red" />
+                <circle cx="150" cy="100" r="80" fill="green" />
+                <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+              </svg>
+            </xmp>
+          </p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 my-auto showcase-text ">
+          <div class="svg" style="border: 1px solid black; padding: 50px; width: 400px; height: 150px;">
+            <svg viewBox="0 0 500 100" class="chart">
+              <polyline
+                 fill="none"
+                 stroke="#0074d9"
+                 stroke-width="2"
+                 points="
+                   00,120
+                   20,60
+                   40,80
+                   60,20
+                   80,80
+                   100,80
+                   120,60
+                   140,100
+                   160,90
+                   180,80
+                   200, 110
+                   220, 10
+                   240, 70
+                   260, 100
+                   280, 100
+                   300, 40
+                   320, 0
+                   340, 100
+                   360, 100
+                   380, 400
+                   400, 60
+                   420, 70
+                   440, 80
+                 "
+               />
+            </svg>
+          </div>
+        </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <h2>Hello world with SVG</h2>
         </div>
       </div>
     </div>
@@ -224,7 +293,6 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
